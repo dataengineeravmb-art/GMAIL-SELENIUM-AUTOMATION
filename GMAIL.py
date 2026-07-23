@@ -46,6 +46,10 @@ def Gmail_Login(Mail_Directory,Email,Password,Send_TO,Send_CC,Subject,Descriptio
     time.sleep(4)
 
 
-Gmail_Login(Mail_Directory="C:/SELENIUM/GMAIL",Email="dataengineeravmb@gmail.com",Password="Alhamdulillah",
-            Send_TO="azharbasha25@gmail.com",Send_CC="azharbasha25@gmail.com",
-            Subject="TEST MAIL FOR SELENIUM",Description='Hi This is Selenium Projects')
+Gmail_Login(Mail_Directory=any,
+            Email=any,
+            Password=any,
+            Send_TO=any,
+            Send_CC=any,
+            Subject=any,
+            Description=any)
